@@ -1,0 +1,39 @@
+{
+  "name": "declarative-tags",
+  "version": "1.0.0",
+  "description": "Canonical HTML tag dictionary, attribute taxonomy, and JSON Schema validation rules for declarative JSON-to-DOM compilers.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./v1": {
+      "import": "./src/v1/index.js",
+      "default": "./src/v1/index.js"
+    },
+    "./tags.json": "./src/v1/tags.json",
+    "./tags.schema.json": "./src/v1/tags.schema.json"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsoft/declarative-tags.git"
+  },
+  "keywords": [
+    "declarative-ui",
+    "html-tags",
+    "json-schema",
+    "tag-dictionary",
+    "dom-compiler",
+    "zero-dependency"
+  ],
+  "author": "KeshavSoft",
+  "license": "MIT",
+  "homepage": "https://keshavsoft.github.io/declarative-tags/"
+}
