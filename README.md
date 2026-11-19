@@ -1,7 +1,14 @@
 # declarative-tags
 
 > **Canonical HTML tag dictionary, attribute taxonomy, and schema validation rules for declarative JSON-to-DOM compilers.**
+---
+[![LIVE DOCS](https://img.shields.io/badge/LIVE-DOCUMENTATION-blue?style=for-the-badge)](https://keshavsoft.github.io/declarative-tags/)
 
+[![NPM](https://img.shields.io/badge/NPM-PACKAGE-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/declarative-tags)
+
+[![GITHUB](https://img.shields.io/badge/GITHUB-REPOSITORY-181717?style=for-the-badge&logo=github)](https://github.com/keshavsoft/declarative-tags)
+
+---
 Part of the **KeshavSoft Declarative UI Architecture** (Tier 1: Ground Truth Dictionary).
 
 ---
